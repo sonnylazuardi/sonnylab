@@ -17,7 +17,7 @@ var Home = React.createClass({
             React.createElement(
                 'p',
                 { className: 'jumbo-desc' },
-                'Sonny Lazuardi - a web & mobile developer working for high quality products.'
+                'Sonny Lazuardi - a web & mobile developer, open source contributor, Javascript fanboy'
             ),
             React.createElement(
                 'div',
