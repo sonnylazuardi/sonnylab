@@ -1,0 +1,118 @@
+body {
+  background: #EAEAE9; }
+
+.example-enter {
+  opacity: 0.01;
+  transition: opacity .2s ease-in; }
+  .example-enter.example-enter-active {
+    opacity: 1; }
+
+a {
+  color: #F5683B; }
+
+.example-leave {
+  opacity: 1;
+  transition: opacity .2s ease-out; }
+  .example-leave.example-leave-active {
+    opacity: 0 !important; }
+
+.header {
+  margin-top: 20px; }
+
+.logo {
+  background: url("../../img/logo.png") no-repeat;
+  height: 60px;
+  background-size: contain;
+  background-position: left; }
+
+ul.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  margin-top: 15px; }
+  ul.menu li {
+    display: inline-block; }
+    ul.menu li a {
+      color: #F5683B;
+      text-decoration: none;
+      padding: 10px;
+      margin: 5px; }
+
+h1 {
+  color: #F5683B;
+  font-size: 5rem; }
+
+.about {
+  text-align: center;
+  padding-top: 80px; }
+  .about .jumbo-title {
+    margin: 0; }
+  .about .jumbo-desc {
+    color: #888; }
+
+.social a {
+  color: #999;
+  font-size: 4rem;
+  margin: 0 20px; }
+
+.content {
+  margin-top: 30px; }
+  .content .post img {
+    width: 100%; }
+
+.portfolios .item {
+  height: 200px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  cursor: pointer; }
+  .portfolios .item .image {
+    width: 100%;
+    height: 200px; }
+  .portfolios .item .panel {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    padding: 50px 15px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all .2s linear; }
+    .portfolios .item .panel .title {
+      text-align: center; }
+    .portfolios .item .panel .description {
+      font-size: 1rem; }
+  .portfolios .item .panel:hover {
+    opacity: 1; }
+  .portfolios .item .loadmore {
+    position: absolute;
+    top: 0;
+    padding: 80px 15px;
+    color: #999;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center; }
+
+.box {
+  background: #fff;
+  padding: 30px;
+  margin: 10px 20%; }
+
+@media (max-width: 670px) {
+  ul.menu {
+    text-align: center;
+    font-size: 1.2rem; }
+  .logo {
+    background-position: center; }
+  .about {
+    padding-top: 30px; }
+  h1 {
+    font-size: 2.5rem; }
+  .box {
+    margin: 10px 0;
+    padding: 20px; } }
