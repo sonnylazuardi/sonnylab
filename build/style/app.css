@@ -103,6 +103,9 @@ h1 {
   padding: 30px;
   margin: 10px 20%; }
 
+.loading {
+  text-align: center; }
+
 @media (max-width: 670px) {
   ul.menu {
     text-align: center;

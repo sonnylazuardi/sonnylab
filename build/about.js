@@ -26,7 +26,7 @@ var About = React.createClass({
     render: function render() {
         if (this.state.loading) return React.createElement(
             "p",
-            null,
+            { className: "loading" },
             "Loading post ",
             React.createElement("i", { className: "fa fa-circle-o-notch fa-spin" })
         );

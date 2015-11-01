@@ -17,7 +17,7 @@ let About = React.createClass({
     },
 
     render: function () {
-        if (this.state.loading) return (<p>Loading post <i className="fa fa-circle-o-notch fa-spin" /></p>);
+        if (this.state.loading) return (<p className="loading">Loading post <i className="fa fa-circle-o-notch fa-spin" /></p>);
         var post = this.state.post;
         return (
             <div className="box">
